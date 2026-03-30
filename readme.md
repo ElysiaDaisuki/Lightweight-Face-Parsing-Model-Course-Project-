@@ -34,12 +34,12 @@ Install the required dependencies:
 
 ### Dataset Structure
 
-data_root/ 
-├── train/
-│                ├── images/ # JPG images 
-│ └── masks/ # Corresponding PNG masks (same filename as images) 
-└── test/ 
-│                ├──images/ # JPG images for inference
+data_root/   
+├── train/  
+│                ├── images/ # JPG images   
+│ └── masks/ # Corresponding PNG masks (same filename as images)   
+└── test/   
+│                ├──images/ # JPG images for inference  
 ### Automatic Train-Validation Split
 
 The `prepare_dataset_structure` function automatically splits the training data into 90% training and 10% validation, creating a `val` directory with images/masks.
