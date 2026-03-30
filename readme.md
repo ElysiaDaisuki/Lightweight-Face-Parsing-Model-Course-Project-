@@ -46,7 +46,9 @@ The `prepare_dataset_structure` function automatically splits the training data 
 ## Training
 
 Run the training script with required arguments:
-```python solution/main.py --mode train --data_root /path/to/dataset --batch_size 8 --epochs 100 --lr 1e-3```
+```
+python main.py --mode train --data_root /path/to/dataset --batch_size 8 --epochs 100 --lr 1e-3
+```
 
 ### Training Arguments
 | Argument | Description | Default |
