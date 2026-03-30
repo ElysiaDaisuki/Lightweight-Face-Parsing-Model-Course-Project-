@@ -4,6 +4,11 @@ A lightweight deep learning model for face parsing (semantic segmentation of fac
 - [Overview](#overview) - [Project Structure](#project-structure) - [Requirements](#requirements) - [Dataset Preparation](#dataset-preparation) - [Training](#training) - [Inference](#inference) - [Model Architecture](#model-architecture) - [License](#license) 
 ## Overview 
 This project implements a lightweight face parsing model that segments facial regions into 16 different classes (e.g., eyes, nose, mouth, hair). Key features: - Depthwise separable convolutions for parameter efficiency - Residual blocks for better feature propagation - Auto train-validation split of training data - Data augmentation for training robustness - Inference pipeline with visualization of segmentation masks - Strict parameter limit (<= 1,821,085) for course requirements
+<div style="display:flex; gap:8px;">
+<img src="https://github.com/ElysiaDaisuki/Lightweight-Face-Parsing-Model-Course-Project-/raw/main/assets/example_ori.png" width="32%">
+<img src="https://github.com/ElysiaDaisuki/Lightweight-Face-Parsing-Model-Course-Project-/raw/main/assets/example_vis.png" width="32%">
+<img src="https://github.com/ElysiaDaisuki/Lightweight-Face-Parsing-Model-Course-Project-/raw/main/assets/example.png" width="32%">
+</div>
 
  ## Project Structure
  solution/
