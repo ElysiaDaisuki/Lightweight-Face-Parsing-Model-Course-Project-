@@ -72,10 +72,10 @@ python solution/main.py --mode test --data_root /path/to/dataset
 ```
 ### Inference Output
 
-The script creates a `test_results` directory with:
-test_results/ 
-├── masks/ # Segmentation masks (PNG with color palette) 
-└── visualizations/ # Overlay of masks on original images (blended)
+The script creates a `test_results` directory with:  
+test_results/   
+├── masks/ # Segmentation masks (PNG with color palette)   
+└── visualizations/ # Overlay of masks on original images (blended)  
 
 ## Model Architecture
 The `LightweightFaceParser` model consists of:
