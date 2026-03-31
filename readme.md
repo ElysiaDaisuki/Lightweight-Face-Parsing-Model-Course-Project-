@@ -73,7 +73,7 @@ python main.py --mode train --data_root /path/to/dataset --batch_size 8 --epochs
 
 Run inference on test images and generate segmentation masks + visualizations:
 ```
-python solution/main.py --mode test --data_root /path/to/dataset
+python main.py --mode test --data_root /path/to/dataset
 ```
 ### Inference Output
 
